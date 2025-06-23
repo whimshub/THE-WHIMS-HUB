@@ -1,5 +1,3 @@
-# THE-WHIMS-HUB
-interested in investing, this is the place for u
 import { Card, CardContent } from "@/components/ui/card"; import { Button } from "@/components/ui/button"; import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"; import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts"; import { useEffect, useState } from "react";
 
 export default function TheWhimsHub() { const [stockData, setStockData] = useState([]);
